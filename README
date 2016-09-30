@@ -1,3 +1,7 @@
-Read the documentation in qemu-doc.html or on http://wiki.qemu-project.org
+If you are looking for the qemu read me view "QEMU-README" theis is a readme for this fork.
 
-- QEMU team
+This fork is designed to be used for upgrading XenGT's qemu to newer versions of qemu (and ubuntu)
+This is part of a project upgrading Igvt's xen, kernel and qemu to newer versions
+
+Current changes:
+build without werror - there is depreciated class on 16.04 so werror causes qemu not to build, removing werror fixes this for now
